@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>PageNotFound</title>
+  <script>
+  functions goback(){
+      window.history.back();
+  }
+  </script>
+  <style>
+        body{
+            text-align:center;
+        }
+
+.gb button {
+	box-shadow: -9px 12px 42px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:17px 32px;
+	text-decoration:none;
+	text-shadow:3px 4px 2px #3d768a;
+}
+.gb button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.gb button:active {
+	position:relative;
+	top:1px;
+}
+
+
+  </style>
+</head>
+
+<body>
+    <h1>
+    Error 404<br/><b> Page not found</b>
+    </h1>
+    <br/><h2>we can't find your page</h2>
+    <br/><button onclick="goback()" class="gb button">go back</button>
+</body>
+
+</html>
